@@ -52,7 +52,7 @@ jobs:
         # The desired behavior if no files are found using the provided path.
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.3.3
-        branch: develop
+        branch: gh-pages
         folder: ./_build
 
     
