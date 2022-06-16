@@ -50,6 +50,8 @@ jobs:
         # A file, directory or wildcard pattern that describes what to upload
         path: index/house.py
         # The desired behavior if no files are found using the provided path.
+    - name: Checkout code  
+      uses: actions/checkout@v2
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
