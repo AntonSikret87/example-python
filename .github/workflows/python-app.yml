@@ -53,8 +53,8 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        git-tag-version: 'false'
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
         publish_dir: ./_build/html
 
     
