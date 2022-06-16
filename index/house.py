@@ -32,7 +32,7 @@ class House:
             return True
         if self.age >= 10:
             return False
-        return False;
+        return False
 
 
 if __name__ == '__main__':
